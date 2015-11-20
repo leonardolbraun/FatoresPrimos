@@ -13,4 +13,10 @@ public class FatoraPrimosTest {
 		FatoraPrimos fatora = new FatoraPrimos(); 
 		assertEquals(fatora.encontraFatoresPrimosPara(5), "5");
 	}
+	
+	@Test
+	public void deveriaRetornar2x3QuandoAEntradaForIgualA6() {
+		FatoraPrimos fatora = new FatoraPrimos(); 
+		assertEquals(fatora.encontraFatoresPrimosPara(6), "2x3");
+	}
 }
